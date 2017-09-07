@@ -1,16 +1,59 @@
-// http://ionicframework.com/docs/theming/
+div.scroll-content {
+  background:url("../assets/img/bg.jpg");
+  width: 100%;
+}
+ion-item{
+  background: url("../assets/img/bg1.jpeg");
+  width: 100%;
+  filter: brightness(100%);
+}
+//ion-title {
+//  text-align:center;
+//}
+.menuham{
+  background: transparent;
+  float: right;
+}
+.toolbar-background{
+  background: url("../assets/img/bg_top.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bar-button {
+  color: white;
+}
+.toolbar-title{
+  color:white;
+}
+h1,p{
+  color: white;
+  text-shadow: red 1px 1px;
+  text-align: center;
+}
+.accueiPage{
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+#accueil{
+  background: url("../assets/img/bg1.jpeg");
+  padding : 20px;
+}
+#transi {
+  font-size:24px;
+}
+div.input-cover{
+  color: white;
+}
+.input{
+  color: white;
+}
+.back {
+  background-color: sandybrown;
+  box-shadow: 3px 3px black;
+}
+.title-card{
+  text-align:center;
+}
 
 
-// App Global Sass
-// --------------------------------------------------
-// Put style rules here that you want to apply globally. These
-// styles are for the entire app and not just one component.
-// Additionally, this file can be also used as an entry point
-// to import other Sass files to be included in the output CSS.
-//
-// Shared Sass variables, which can be used to adjust Ionic's
-// default Sass variables, belong in "theme/variables.scss".
-//
-// To declare rules for a specific mode, create a child rule
-// for the .md, .ios, or .wp mode classes. The mode class is
-// automatically applied to the <body> element in the app.

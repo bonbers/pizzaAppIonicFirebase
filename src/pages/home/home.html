@@ -1,17 +1,23 @@
 <ion-header>
+
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>Accueil</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
+  <div id="accueil">
+  <h1>Bienvenue chez "Bombers Food"</h1>
+    <img src="assets/img/foodbombers.png"/>
+  <p class="accueilPage">
+    Un choix vaste et variés de pizza, hamburgers et autres !!
   </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
+  <p class="accueilPage">Nous proposons aussi des formules avec boissons, frites et salades</p>
+  <p class="accueilPage">
+    Pour commander chez nous c'est simple, créer vous un compte et faites vous plaisir !
   </p>
+  </div><br>
+  <button ion-button block color="dark" (click)="signup()">Créer un compte</button><br>
+
+  <button ion-button block color="dark" (click)="login(user)">Connectez-vous</button>
 </ion-content>
